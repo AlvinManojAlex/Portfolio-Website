@@ -2,6 +2,69 @@
 font-family: 'Chakra Petch', sans-serif;
 font-family: 'Ubuntu', sans-serif; */
 
-body{
+/* Navbar */
+
+.bg-nav{
+    background-color: #315EFF;
+}
+
+.navbar-nav{
+    margin-left: auto;
+}
+
+.nav-item{
+    padding: 0.5rem 0;
+}
+
+.nav-link{
+    color: #00A3FF;
+    padding-right: 5rem;
+}
+
+
+.link-items{
+    text-decoration: none;
+    margin: 0 1.5rem;
+    color: #00A3FF;
+    transition-duration: 0.4s;
+}
+
+.link-items:hover{
+    color: white;
+    
+}
+
+
+
+/* About me */
+
+#about-section{
+    padding: 14.1rem 5rem;
+    background-color: #00A3FF;
+    text-align: center;
+}
+
+.about-heading{
+    font-family: Arizonia, cursive;
+    font-size: 7rem;
+    color: white;
+}
+
+.about-content{
+    font-family: Ubuntu, sans-serif;
+    color: white;
+    letter-spacing: 3px;
+    padding-top: 2rem;
+}
+
+/* Projects */
+
+#projects-section{
     padding: 5rem;
+}
+
+.projects-heading{
+    font-family: Chakra Petch, sans-serif;
+    color: #00A3FF;
+    font-size: 3rem;
 }
