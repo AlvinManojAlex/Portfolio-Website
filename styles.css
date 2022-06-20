@@ -68,3 +68,28 @@ font-family: 'Ubuntu', sans-serif; */
     color: #00A3FF;
     font-size: 3rem;
 }
+
+/* Skills */
+
+#skills-section{
+    padding: 5rem;
+    background-color: #00A3FF;
+}
+
+.skills-heading{
+    font-family: Chakra Petch, sans-serif;
+    color: white;
+    font-size: 3rem;
+    padding-bottom: 5rem;
+}
+
+.skills-container{
+    display: grid;
+    grid-template: 5rem 5rem 5rem 5rem 5rem 5rem / 22rem auto 22rem 10rem;
+}
+
+.skill-item{
+    font-family: Ubuntu, sans-serif;
+    color: white;
+    font-size: 1.2rem;
+}
