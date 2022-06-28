@@ -67,7 +67,28 @@ font-family: 'Ubuntu', sans-serif; */
     font-family: Chakra Petch, sans-serif;
     color: #00A3FF;
     font-size: 3rem;
+    padding-bottom: 5rem;
 }
+
+.projects-img{
+    width: auto;
+    max-height: 25rem;
+    padding-bottom: 5rem;
+}
+
+.item-carousel{
+    text-align: center;
+}
+
+.item-heading{
+    font-family: Ubuntu, sans-serif;
+    font-weight: bold;
+}
+
+.item-text{
+    font-family: Ubuntu, sans-serif;
+}
+
 
 /* Skills */
 
@@ -80,7 +101,7 @@ font-family: 'Ubuntu', sans-serif; */
     font-family: Chakra Petch, sans-serif;
     color: white;
     font-size: 3rem;
-    padding-bottom: 5rem;
+    padding-bottom: 7rem;
 }
 
 .skills-container{
