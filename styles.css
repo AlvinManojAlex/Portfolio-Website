@@ -61,6 +61,7 @@ font-family: 'Ubuntu', sans-serif; */
 
 #projects-section{
     padding: 5rem;
+    text-align: center;
 }
 
 .projects-heading{
@@ -68,15 +69,16 @@ font-family: 'Ubuntu', sans-serif; */
     color: #00A3FF;
     font-size: 3rem;
     padding-bottom: 5rem;
+    text-align: left;
 }
 
 .projects-img{
     width: auto;
-    max-height: 25rem;
+    height: 30rem;
     padding-bottom: 5rem;
 }
 
-.item-carousel{
+.carousel-item{
     text-align: center;
 }
 
@@ -87,6 +89,12 @@ font-family: 'Ubuntu', sans-serif; */
 
 .item-text{
     font-family: Ubuntu, sans-serif;
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 35%;
+    top: 50%;
+    left: 32%;
 }
 
 
