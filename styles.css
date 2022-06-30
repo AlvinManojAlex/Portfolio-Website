@@ -122,3 +122,43 @@ font-family: 'Ubuntu', sans-serif; */
     color: white;
     font-size: 1.2rem;
 }
+
+/* Contact Section */
+
+#contact-section{
+    padding: 5rem;
+}
+
+.contact-heading{
+    font-family: Chakra Petch, sans-serif;
+    color: #00A3FF;
+    font-size: 3rem;
+    padding-bottom: 7rem;
+}
+
+.contact-content{
+    font-family: Ubuntu, sans-serif;
+    color: #00A3FF;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.sub-content{
+    font-size: 1rem;
+}
+
+.contact-line{
+    padding-bottom: 5rem;
+}
+
+.contact-container{
+    display: grid;
+    grid-template: 2rem 3rem 3rem/ 10rem 30rem 10rem;
+    justify-content: space-between;
+}
+
+.contact-icon{
+    text-align: center;
+    font-size: 2rem;
+    color: #315EFF;
+}
