@@ -31,7 +31,6 @@ font-family: 'Ubuntu', sans-serif; */
 
 .link-items:hover{
     color: white;
-    
 }
 
 
@@ -138,13 +137,14 @@ font-family: 'Ubuntu', sans-serif; */
 
 .contact-content{
     font-family: Ubuntu, sans-serif;
-    color: #00A3FF;
+    color: black;
     font-size: 1.2rem;
     text-align: center;
 }
 
 .sub-content{
     font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .contact-line{
@@ -160,5 +160,43 @@ font-family: 'Ubuntu', sans-serif; */
 .contact-icon{
     text-align: center;
     font-size: 2rem;
-    color: #315EFF;
+    color: rgb(207, 207, 207);
+}
+
+/* Footer section */
+
+#footer-section{
+    padding: 5rem;
+    background-color: #315EFF;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+}
+
+.footer-icons{
+    size: 1.2rem;
+    color: #00A3FF;
+    border: #00A3FF;
+    border-style: solid;
+    border-radius: 100%;
+    padding: 0.5rem;
+    margin: 0 1.5rem;
+    transition-duration: 0.15s;
+}
+
+.footer-links{
+    text-decoration: none;
+}
+
+.footer-icons:hover{
+    color: white;
+    border: white;
+    border-style: solid;
+    border-radius: 100%;
+    transform: scale(1.15);
+}
+
+.copywright{
+    color: #00A3FF;
+    font-size: 0.7rem;
+    padding-top: 1rem;
 }
